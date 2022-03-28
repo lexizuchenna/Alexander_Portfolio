@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\LeXiZ\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\LeXiZ\AppData\Roaming\npm\node_modules\vendor;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\QuickTime\QTSystem\;C:\Program Files\Common Files\Apple\Internet Services\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\LeXiZ\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile 'C:\Users\LeXiZ\AppData\Local\Yarn\Cache\v6\npm-core-js-pure-3.21.1-8c4d1e78839f5f46208de7230cebfb72bc3bdb51-integrity\node_modules\core-js-pure\internals\array-fill.js' -> 'C:\Users\LeXiZ\Desktop\PERSONAL PORTFOLIO\backend\node_modules\core-js-pure\internals\array-fill.js'
+
+npm manifest: 
+  {
+    "name": "lextechspecportfolio",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "LEXIZ Technology <lextechspec@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.27.2",
+      "@sanity/core": "^2.27.0",
+      "@sanity/default-layout": "^2.27.2",
+      "@sanity/default-login": "^2.27.0",
+      "@sanity/desk-tool": "^2.27.3",
+      "@sanity/eslint-config-studio": "^2.0.0",
+      "@sanity/vision": "^2.27.2",
+      "eslint": "^8.6.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
